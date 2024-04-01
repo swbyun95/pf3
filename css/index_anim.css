@@ -1,0 +1,33 @@
+@charset "UTF=8";
+
+/*intro animation*/
+#intro>h1>img{
+    animation-name:title_anim;
+    animation-duration: 0.8s;
+    animation-direction: alternate;
+}
+#intro>h1>strong{
+    animation-name:title_anim;
+    animation-duration: 1.6s;
+    animation-direction: alternate;
+}
+#intro>h1>span{
+    animation-name:title_anim;
+    animation-duration: 2.4s;
+    animation-direction: alternate;
+}
+.btn_start{
+    animation-name:title_anim;
+    animation-delay: 2s;
+    animation-duration: 0.8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    opacity: 0%;
+}
+
+@keyframes title_anim {
+    0%{opacity: 0%;}
+    25%{opacity: 0%;}
+    80%{opacity: 100%;}
+    100%{opacity: 100%;}
+}
